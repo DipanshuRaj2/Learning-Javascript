@@ -50,3 +50,9 @@ console.log("5 == 5 ", a===b);//true
 */
 
 //logical operator (and ,or,logical NOT) 
+
+//ternary operator         
+// let age = 16;
+
+// age >= 18 ?console.log("adult") : console.log("not adult");
+// console.log(result);

@@ -1,11 +1,11 @@
 //conditional statement
-let age = 12;
-if(age>18){
-    console.log("You can Vote");
-}
-else{
-    console.log("you CANNOT vote");
-}
+// let age = 12;
+// if(age>18){
+//     console.log("You can Vote");
+// }
+// else{
+//     console.log("you CANNOT vote");
+// }
 /*
 let mode = "light";
 let color;
@@ -38,21 +38,21 @@ console.log(color);
 //     console.log("odd");
 // }
 
-let mode = "black";
-let color;
+// let mode = "black";
+// let color;
 
-if(mode === "dark"){
-    color = "black";
-}
-else if(mode === "blue"){
-    color = "blue";
-}
-else if(mode === "pink"){
-    color = "white";
-}
-else{
-    color = "white";
-}
-console.log(color);
+// if(mode === "dark"){
+//     color = "black";
+// }
+// else if(mode === "blue"){
+//     color = "blue";
+// }
+// else if(mode === "pink"){
+//     color = "white";
+// }
+// else{
+//     color = "white";
+// }
+// console.log(color);
 
 //
