@@ -46,16 +46,21 @@
 
 //for in loop 
 
-let student ={
-    name: "Rahul Kumar",
-    age: 20,
-    cgpa: 7.5,
-    isPass: true,
+// let student ={
+//     name: "Rahul Kumar",
+//     age: 20,
+//     cgpa: 7.5,
+//     isPass: true,
 
-};
+// };
 
-for(let key in student){
-    console.log("key=", key, " value=",student[key]);
+// for(let key in student){
+//     console.log("key=", key, " value=",student[key]);
+// }
+
+
+// let num = 0;
+for(let num = 0; num<=100; num++){
+     if(num%2 == 0)
+    console.log("i =", num);
 }
-
-
