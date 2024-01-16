@@ -49,7 +49,7 @@
 // console.log(marvelHeroes);
 
 
-// let val = marvelHeroes.shift(); //remove element from end place.
+// let val = marvelHeroes.shift(); //remove element from front place.
 // console.log("deleted" , val);
 // console.log(marvelHeroes);
 
