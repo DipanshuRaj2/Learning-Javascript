@@ -40,7 +40,7 @@ let companies =["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
 // console.log(companies);
 
 //b. Remove Uber & Add Ola in its place
-companies.splice(2 , 1,"Ola");
+companies.splice(2 ,2,"Ola", "nikhil");
 console.log(companies);
 
 //c. Add Amazon at the end
