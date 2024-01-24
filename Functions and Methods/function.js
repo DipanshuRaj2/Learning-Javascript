@@ -59,11 +59,42 @@
 // });
 
 // print the city name 
-let arr = ["pune","delhi","mumbai"];
-arr.forEach((val, idx)=>{
-    console.log(val.toUpperCase(), idx);
-}); 
+// let arr = ["pune","delhi","mumbai"];
+// arr.forEach((val, idx)=>{
+//     console.log(val.toUpperCase(), idx);
+// });   
+ 
+// Map 
+// Map generates new arr but forEach generates same array
+// let nums = [67, 52, 39];
+// let newArr = nums.map((val) => {
+//     return val*val;
+// });
 
+// console.log(newArr);
 
+// filter array use for perform some opertion
+// let arr = [1,2,3,4,5,6,7];
 
+// let evenArr = arr.filter((val)=> {
+//     return val % 2 === 0;
+// });
+// console.log(evenArr);
 
+//Array reduced ()
+
+// let arr = [1,2,3,4]; // current varible ke sath value store hota hain
+
+//sum of array
+// const output = arr.reduce((prev,curr) => {
+//     return prev + curr;
+// });
+// console.log(output); // 10
+
+// find maximum
+let arr1 = [5,6,2,1,3];
+
+const output = arr1.reduce((prev , curr)=> {
+    return prev < curr ? prev : curr;
+});
+console.log(output);
