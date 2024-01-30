@@ -32,8 +32,71 @@ What is DOM?
 
 // console.log(document.body.firstChild);
 
-let div = document.querySelector("div");
-console.dir("div")
+// let div = document.querySelector("div");
+// console.dir("div")
 
-let heading = document.querySelector("h1");
-console.dir(heading);
+// let heading = document.querySelector("h1");
+// console.dir(heading);
+
+
+// Dom Part 2
+
+
+
+// for div tag
+
+// let div =document.querySelector("div");
+// console.log(div);
+
+// let id = div.getAttribute("id");
+// console.log(id);
+
+// let name = div.getAttribute("name");
+// console.log(name);
+
+// for p tag
+
+// let div = document.querySelector("p");
+// console.log(div);
+
+// let id = div.getAttribute("id");
+// console.log(id);
+
+//another way
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class", "newClass"));
+
+
+// Access and modify the element in style.css
+
+// let div = document.querySelector("div");
+
+// div.style.backgroundColor = "green";
+// div.style.backgroundColor = "purple";
+
+// div.style.fontSize = "26px";
+// div.innerText = "Hello!";
+
+
+//insert Elements
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "click me";
+// console.log(newBtn);
+
+// let div = document.querySelector("p");
+// div.after(newBtn);
+
+//new heading(adding a new element)
+let newHeading = document.createElement("h1");
+newHeading.innerHTML ="<i>Hi,I am new!</i>";
+
+document.querySelector("body").prepend(newHeading);
+let para = document.querySelector("p");
+para.remove();
+newHeading.remove();
+
+
+
+
+
+ 

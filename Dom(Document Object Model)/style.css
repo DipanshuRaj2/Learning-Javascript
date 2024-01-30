@@ -1,12 +1,11 @@
-.heading{
-    color: blue;
-    /* text-decoration: Line-through; */
-    background-color: aqua;
+#box{
+    height: 250px;
+    width: 100px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid black;
+    
 }
 body{
-    background-color: pink;
-}
-button{
-    background-color: yellow;
-    color: red;
+    background-color: aqua;
 }
