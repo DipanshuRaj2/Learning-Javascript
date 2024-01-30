@@ -1,0 +1,12 @@
+.heading{
+    color: blue;
+    /* text-decoration: Line-through; */
+    background-color: aqua;
+}
+body{
+    background-color: pink;
+}
+button{
+    background-color: yellow;
+    color: red;
+}
