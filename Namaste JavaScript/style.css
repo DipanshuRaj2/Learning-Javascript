@@ -1,0 +1,19 @@
+#clickMe{
+    background-color: blue;
+    font-size: 40px;
+    display: flex;
+}
+#heading{
+    background-color: aqua;
+    display: center;
+}
+#clor{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+.dom{
+    background-color: red;
+    font-size: 80px;
+}
