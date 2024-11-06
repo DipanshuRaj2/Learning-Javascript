@@ -1,0 +1,39 @@
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 1px seagreen;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ */
+/* .para{
+    background-color: yellow;
+    color: balck;
+    font-size: larger;
+    text-align: center;
+}
+
+.newClass{
+    text-decoration: underline;
+    font-style: italic;
+
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 1px;
+    color: aqua;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+} */
+
+
+body1{
+    background-color: white;
+}

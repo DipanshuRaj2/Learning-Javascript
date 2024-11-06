@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Node File",
+            "type": "shell",
+            "command": "node",
+            "args": [
+                "--harmony",
+                "${file}"
+            ],
+            "problemMatcher": ["$jshint"],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}

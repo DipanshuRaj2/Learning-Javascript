@@ -87,15 +87,24 @@ What is DOM?
 // div.after(newBtn);
 
 //new heading(adding a new element)
-let newHeading = document.createElement("h1");
-newHeading.innerHTML ="<i>Hi,I am new!</i>";
+// let newHeading = document.createElement("h1");
+// newHeading.innerHTML ="<i>Hi,I am new!</i>";
 
-document.querySelector("body").prepend(newHeading);
-let para = document.querySelector("p");
-para.remove();
-newHeading.remove();
+// document.querySelector("body").prepend(newHeading);
+// let para = document.querySelector("p");
+// para.remove();
+// newHeading.remove();
 
+(function () {
+    
+    console.log("Original salary was " + salary);
+    
+    salary = "5000$";
+    
+    console.log("My New Salary " + salary);
+})();
 
+    
 
 
 
