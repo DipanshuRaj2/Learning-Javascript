@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style ="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!-- THis is commment -->
+        <div class="days">Monday</div>
+        <div class="days">Tuesday</div>
+        <div class="days">Wednesday</div>
+        <div class="days">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector(".parent")
+    // console.log(parent.children[1].innerText);
+    // for(let i = 0; i<parent.children.length; i++){
+    //     console.log(parent.children[i].innerText);
+    // }
+    // parent.children[0].style.backgroundColor = "orange"
+    // parent.children[1].style.color = "yellow";
+    // console.log(parent.firstElementChild);
+    // console.log(parent.lastElementChild);
+    // const dayOne = document.querySelector('.days');
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling);
+
+    console.log("nodes: ", parent.childNodes);
+</script>
+</html>
