@@ -1,0 +1,43 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  .h2{
+    color: black;
+  }
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
+  
