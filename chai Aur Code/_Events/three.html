@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color:#414141; color: aliceblue">
+    <h1>chai aur JavaScript</h1>
+    <button id = "start">Start</button>
+    <button id = "stop">Stop</button>
+</body>
+<script>
+    //     const sayDate = function(str){
+    //     console.log(str, Date.now());
+    //    }
+    //    const intervalId = setInterval(sayDate,1000, "hi"); 
+    //    clearInterval(intervalId);
+
+    // small project1
+    
+    let continue1;
+        const deci = function(e){
+            console.log('hi', Date.now());
+         }
+
+       document.getElementById('start').addEventListener('click', function(e){
+        continue1 = setInterval(deci, 1000);
+       });
+
+       document.getElementById('stop').addEventListener('click', function(e){
+        clearTimeout(continue1);
+        console.log('stopped');
+       })
+    
+
+</script>
+</html> 
