@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<style>
+    body {
+        background-color: #212121;
+        color: #fff;
+    }
+
+    .card {
+        width: 500px;
+        height: 600px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        position: relative;
+    }
+
+    .container {
+        padding: 2px 16px;
+        border: 2px solid;
+    }
+
+    .button-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+    }
+
+    .button-container button {
+        padding: 10px 20px;
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="card">
+        <img src="img_avatar.png" alt="Avatar" style="width: 100%">
+        <div class="button-container">
+            <button id="show-followers">Show Followers</button>
+        </div>
+        <div class="container">
+            <h4>John Doe</h4>
+            <p>Architect & Engineer</p>
+        </div>
+    </div>
+
+    <script>
+        const requestUrl = 'https://api.github.com/users/hiteshchoudhary';
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', requestUrl);
+
+        xhr.onreadystatechange = function () {
+            console.log(xhr.readyState);
+
+            if (xhr.readyState === 4) {
+                const data = JSON.parse(this.responseText);
+
+                // Set the initial avatar image and user info
+                document.querySelector(".card img").setAttribute("src", `${data.avatar_url}`);
+                document.querySelector("h4").innerHTML = `${data.name}`;
+
+                // Add click event listener to show followers button
+                document.getElementById("show-followers").addEventListener("click", function () {
+                    document.querySelector("h4").innerHTML = `${data.name}, Followers: ${data.followers}`;
+                });
+            }
+        };
+
+        xhr.send();
+    </script>
+</body>
+
+</html>
